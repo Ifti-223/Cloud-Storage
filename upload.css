@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url('bg.jpg') no-repeat center center fixed;
+  background: url('bg.png') no-repeat center center fixed;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover; /* Optional: scale the image */
