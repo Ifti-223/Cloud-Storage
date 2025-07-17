@@ -26,17 +26,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <div class="auth-container">
+  <img src="logo1.png" alt="Logo" class="logo">
   <div class="auth-box">
-    <img src="insaff.PNG" alt="Company Logo" class="logo"> 
-
     <h2>Login</h2>
-
     <form method="POST">
       <input type="email" name="email" placeholder="Email" required><br>
       <input type="password" name="password" placeholder="Password" required><br>
       <button type="submit">Login</button>
     </form>
-
     <p class="switch">New here? <a href="register.php">Create an account</a></p>
   </div>
 </div>
